@@ -1,0 +1,26 @@
+.reg-body {
+    padding: 10px 10px 10px 10px;
+    background: linear-gradient(to bottom, orange, yellow);
+    border:2px solid black;
+    border-radius: 15px;
+    color: black;
+}
+
+.form-check {
+    padding-top: 12px;
+}
+
+.select {
+    width: 260px;
+    height: 40px;
+    border:2px solid yellow;
+    border-radius: 7px;
+}
+
+.log-body {
+    padding: 40px 40px 40px 40px;
+    background: linear-gradient(to bottom, orange, yellow);
+    border:2px solid black;
+    border-radius: 15px;
+    color: black;
+}
