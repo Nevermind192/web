@@ -1,0 +1,399 @@
+.header {
+    background: linear-gradient(to right, darkorange, yellow);
+}
+
+.header a {
+    color: white;
+    letter-spacing: 1px;
+}
+
+.menu-top a {
+    color: white;
+    padding: 10px;
+}
+
+.button_1 {
+    border: 2px solid;
+    border-radius: 50px;
+    height: 32px;
+    padding: 1px 25px;
+    text-align: center;
+    color: green;
+    margin: 10px 0;
+}
+
+.logo {
+    width: 45px;
+    height: 45px;
+    margin: -10px 0;
+}
+
+p {
+    margin: -15px;
+}
+
+.brand {
+    font-weight: bold;
+    font-size: 24px;
+    margin: -8px 7px;
+}
+
+.search-input {
+    width: 540px;
+    height: 50px;
+    top:-10px;
+    right: 0;
+    border-radius: 50px;
+
+    font-size: 18px;
+    padding: 0 30px;
+    border: none;
+
+    position: relative;
+}
+.search-input:focus {
+    border: none;
+    outline: none;
+}
+.search-area .wrapper {
+    position: relative;
+}
+.search-area .wrapper::after {
+    content: "";
+
+    width: 30px;
+    height: 30px;
+
+    background: url("images/search.png");
+    background-repeat: no-repeat;
+    background-size: 23px 23px;
+    background-position: center;
+
+    position: absolute;
+    top: -1px;
+    right: -5px;
+}
+
+.prompt {
+    margin-left: -40px;
+    margin-top: -20px;
+}
+
+.prompts a {
+    font-size: 12px;
+    text-decoration: none;
+    border-bottom: 1px dashed #fffdfd;
+    margin: 4px 5px;
+    display: inline-block;
+}
+
+.main-menu a {
+    color: black;
+    font-size: 19px;
+    float:left;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+
+.main-menu li+li {
+    position:relative;
+}
+.main-menu li+li::before{
+    content:"";
+    position:absolute;
+    height:35px;
+    width:1px;
+    background-color: darkgrey;
+    display:block;
+    left:0;
+    top:10px;
+}
+
+.hr-line-1 {
+    margin: 3px 0;
+}
+
+.button-back {
+    border: 2px solid;
+    border-radius: 50px;
+    height: 35px;
+    padding: 3px 20px;
+    text-align: center;
+    color: green;
+    margin: 10px 0;
+}
+
+.navigation a {
+    color: black;
+    font-size: 15px;
+}
+
+.navigation {
+    margin: 8px 0;
+}
+
+.sep {
+    margin: 6px 0;
+}
+
+.title {
+    font-size: 34px;
+}
+
+.left-photo img {
+    width:  120%;
+    height: auto;
+    margin: 10px 0;
+}
+
+.main-photo img {
+    width: 90%;
+    height: auto;
+    margin: 10px 20px;
+}
+
+.title2 {
+    font-weight: bold;
+    font-size: 34px;
+}
+
+.inf {
+    font-size: 14px;
+}
+
+.dropdown-item-child {
+    width: 100%;
+    height: auto;
+}
+
+.child-name {
+    text-align: center;
+    font-size: 12px;
+}
+
+.dropdown:hover>.dropdown-menu {
+    width: 100%;
+    height: 450px;
+    display: block;
+    margin: 39px 55px;
+    font-size:10px;
+}
+
+.rating {
+    margin: -1px -30px;
+}
+
+.star {
+    width: 15px;
+    height: 15px;
+    margin: 0 2px;
+}
+
+.rating-value {
+    font-weight: bold;
+    color: black;
+    margin: -8px -5px;
+}
+
+.rating-all {
+    font-size: 15px;
+    color: grey;
+    margin: -7px -20px;
+}
+
+.prefer {
+    width: 22px;
+    height: 20px;
+    transform:translate(-5px, -4px);
+}
+
+.prefer::after {
+    background-color: orangered;
+}
+
+.pref {
+    font-size: 14px;
+}
+
+.available-button {
+    margin-top: 40px;
+}
+
+.availability span{
+    margin-top: 5px;
+}
+
+.not-buy {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    border: 1px solid grey;
+    border-radius: 50%;
+}
+
+.not-buy:before, .not-buy:after {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 10%;
+    top: 7px;
+    left: 10%;
+    background: grey;
+}
+
+.not-buy:before {
+    transform: rotate(45deg);
+}
+
+.not-buy:after {
+    transform: rotate(-45deg);
+}
+
+.not-buy-text {
+    padding-left: 20px;
+    font-size: 14px;
+    color: dimgray;
+}
+
+.report-button {
+    width: 180px;
+    border: 1px solid gainsboro;
+    border-radius: 30px;
+    background-color: gainsboro;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 14px;
+    transform:translate(-10px, -8px);
+}
+
+.report-button b{
+    color: dimgray;
+}
+
+.hr-line-2 {
+    margin-top: 30px;
+}
+
+.ok-icon {
+    margin-top: -5px;
+    width: 20px;
+    height: 20px;
+}
+
+.adv-text {
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.advantage li+li {
+    position: relative;
+}
+
+.advantage li+li::before {
+    content:"";
+    position:absolute;
+    height:45px;
+    width:1px;
+    background-color: gainsboro;
+    display:block;
+    left: -10px;
+    top: -8px;
+}
+
+.advantage li {
+    margin-top: -5px;
+    padding-right: 20px;
+}
+
+.properties {
+    margin-top: 30px;
+}
+
+.properties li {
+    margin-top: 12px;
+}
+
+.properties img {
+    float: left;
+    margin: 10px;
+}
+
+.prop-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.prop-text {
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.product-information {
+    margin-top: 60px;
+}
+
+.product-information .h1 {
+    font-size: 34px;
+}
+
+.product-information .h2 {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.product-information b {
+    font-size: 16px;
+}
+
+.product-information p {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 14px;
+}
+
+.product-information li {
+    margin-left: -20px;
+    font-size: 14px;
+}
+
+.product-information .right-inf {
+    margin-left: 50px;
+}
+
+.elements {
+    margin-top: 10px;
+}
+
+.photo-mid {
+    margin-top: 40px;
+}
+
+.mid-ph {
+    margin-top: 20px;
+    margin-left: -10px;
+    object-fit: cover;
+    width: 200px;
+    height: 140px;
+    object-position: 0 0;
+    border-radius: 10px;
+}
+
+.block__row {
+    margin-left: -20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.block__text {
+    font-size: 14px;
+}
+
+.block__line {
+    flex-grow: 1;
+    flex-basis: 0;
+    height: 1px;
+    border-top: 1px dashed darkgrey;
+    margin: 10px;
+}
