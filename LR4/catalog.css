@@ -1,0 +1,75 @@
+.container-plants {
+    margin-top: 30px;
+}
+
+.catalog_plants {
+    padding-bottom: 60px;
+}
+
+.image {
+    max-width: 150px;
+    border-radius: 10px;
+}
+
+.plant-info {
+    text-align: center;
+}
+
+.plant-description p {
+    padding-top: 20px;
+}
+
+.plant-cost {
+    transform: translate(0, 70px);
+    color: limegreen;
+}
+
+.filters {
+    padding-left: 80px;
+}
+
+.filters-title {
+    padding-top: 30px;
+    font-size: 24px;
+    padding-left: 80px;
+    padding-bottom: 30px;
+}
+
+.filter {
+    padding-bottom: 20px;
+}
+
+.filter input{
+    width: 220px;
+    height: 35px;
+}
+
+.filters form input{
+    background-color: #F9F0DA;
+    border:2px solid orange;
+    border-radius: 5px;
+    color: gray;
+}
+
+.filter-buttons input {
+    width: 108px;
+    height: 30px;
+}
+
+.filter p {
+    padding-bottom: 20px;
+    padding-left: 25px;
+}
+
+.kinds-of-fields {
+    width: 220px;
+    height: 35px;
+    background-color: #F9F0DA;
+    border:2px solid orange;
+    border-radius: 5px;
+    color: gray;
+}
+
+
+
+
